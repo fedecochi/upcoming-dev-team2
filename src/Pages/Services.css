@@ -1,0 +1,6 @@
+.services{ padding:56px 16px; background:#fff; }
+.s-head{ max-width:960px; margin:0 auto 18px; }
+.s-grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:18px; }
+.s-card{ grid-column:span 12; background:#fff; border:1px solid #f1f5f9; border-radius:16px; padding:18px; box-shadow:0 10px 30px rgba(15,23,42,.06); }
+@media (min-width:800px){ .s-card{ grid-column:span 6; } }
+.s-card h3{ margin:.1rem 0 .4rem; }

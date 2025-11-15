@@ -1,0 +1,11 @@
+.about{ padding:56px 16px; background:#fff; }
+.a-head{ max-width:960px; margin:0 auto 16px; }
+.a-grid{ display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:12px; }
+.a-card{ grid-column:span 12; background:#fff; border:1px solid #f1f5f9; border-radius:16px; padding:18px; box-shadow:0 10px 30px rgba(15,23,42,.06); }
+@media (min-width:800px){ .a-card{ grid-column:span 6; } }
+
+.invest{ margin-top:24px; background:linear-gradient(135deg,#ffe7e3,#fff7d6); border:1px solid #ffd9c7; padding:22px; border-radius:16px; }
+.invest h3{ margin:0 0 8px; }
+.invest ul{ margin:8px 0 16px 18px; }
+.cta-invest{ display:inline-block; background:brown; color:#fff; font-weight:800; padding:10px 16px; border-radius:999px; }
+.cta-invest:hover{ filter:brightness(1.05); }
